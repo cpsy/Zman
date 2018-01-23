@@ -1,0 +1,76 @@
+<view class="section">
+  
+  <view class="notice">
+    <view>尊敬的医护老师您们好，感谢您使用我公司生产的微电流刺激仪。</view>
+    <view>下面耽误您10分钟的时间对产品使用过程中做一个回访：</view>
+  </view>
+
+  <view class="from-info">
+    <view>
+      <label for="from-person">医院名称：</label>
+      <input id="from-person" placeholder="医院名称"/>
+    </view>
+    <view>
+      <label for="from-person">老师称呼：</label>
+      <input id="from-person" placeholder="老师称呼"/>
+    </view>
+  </view>
+
+  <view class="questionnaire-list">
+    
+    <view class="questionnaire-item">
+      <view class="questionnaire-subject">
+        1.您在使用微电流刺激设备过程中，操作的人性化（即方便操作）您的评分为：
+      </view>
+      <view class="questionnaire-option">
+        <radio-group>
+          <label><radio></radio><text>10分</text></label>
+          <label><radio></radio><text>8分</text></label>
+          <label><radio></radio><text>6分</text></label>
+          <label><radio></radio><text>4分</text></label>
+          <label><radio></radio><text>2分</text></label>
+          <label><radio></radio><text>0分</text></label>
+        </radio-group>
+      </view>
+    </view>
+
+    <view class="questionnaire-item">
+      <view class="questionnaire-subject">
+        2.您在使用微电流刺激设备过程中，操作的人性化（即方便操作）您的评分为：
+      </view>
+      <view class="questionnaire-option">
+        <radio-group>
+          <label><radio></radio><text>10分</text></label>
+          <label><radio></radio><text>8分</text></label>
+          <label><radio></radio><text>6分</text></label>
+          <label><radio></radio><text>4分</text></label>
+          <label><radio></radio><text>2分</text></label>
+          <label><radio></radio><text>0分</text></label>
+        </radio-group>
+      </view>
+    </view>
+
+    <view class="questionnaire-item">
+      <view class="questionnaire-subject">
+        3.您在使用微电流刺激设备过程中，您对手持终端的评价为：
+      </view>
+      <view class="questionnaire-option">
+        <radio-group>
+          <label><radio></radio><text>方便操作、方便移动、方便携带、能提高治疗效率</text></label>
+          <label><radio></radio><text>方便移动、方便携带、操作繁琐</text></label>
+          <label>
+            <radio></radio>
+            <text>其他意见</text>
+            <textarea placeholder="请填写其他意见" />
+          </label>
+        </radio-group>
+      </view>
+    </view>
+    
+  </view>
+
+  <view class="questionnaire-submit">
+    <button type="primary">提交</button>
+  </view>
+
+</view>
