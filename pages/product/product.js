@@ -5,16 +5,80 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgUrls: [
-      "res/img/BrainScope.jpg",
-      "res/img/BrainScope.jpg"
-    ],
     productList: [
-      "BrainScope",
-      "tDcs",
-      "PsyCT",
-      "Aim.robot"
-    ]
+      {
+        tag: "BrainScope",
+        detail: [
+          {
+            text: "图片1",
+            src: "res/img/BrainScope/1.jpg"
+          },
+          {
+            text: "图片1",
+            src: "res/img/BrainScope/1.jpg"
+          },
+          {
+            text: "图片1",
+            src: "res/img/BrainScope/1.jpg"
+          }
+        ]
+      },
+      {
+        tag: "tDcs",
+        detail: [
+          {
+            text: "图片1",
+            src: "res/img/tDcs/1.jpg"
+          },
+          {
+            text: "图片1",
+            src: "res/img/tDcs/1.jpg"
+          },
+          {
+            text: "图片1",
+            src: "res/img/tDcs/1.jpg"
+          }
+        ]
+      },
+      {
+        tag: "PsyCT",
+        detail: [
+          {
+            text: "图片1",
+            src: "res/img/PsyCT/1.jpg"
+          },
+          {
+            text: "图片1",
+            src: "res/img/PsyCT/1.jpg"
+          },
+          {
+            text: "图片1",
+            src: "res/img/PsyCT/1.jpg"
+          }
+        ]
+      },
+      {
+        tag: "Aim.robot",
+        detail: [
+          {
+            text: "图片1",
+            src: "res/img/Aim.robot/1.jpg"
+          },
+          {
+            text: "图片1",
+            src: "res/img/Aim.robot/1.jpg"
+          },
+          {
+            text: "图片1",
+            src: "res/img/Aim.robot/1.jpg"
+          }
+        ]
+      }
+    ],
+    indicatorDots: true,
+    autoplay: false,
+    indicatorActiveColor: "#006537",
+    circular: true
   },
 
   /**

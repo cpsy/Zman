@@ -1,18 +1,14 @@
 <view class="product">
  
-  <swiper class="product-ad" indicator-dots="true" autoplay="true">
-    <block wx:for="{{imgUrls}}" wx:key="index">
-      <swiper-item>
-         <image src="{{item}}"></image> 
-      </swiper-item> 
-    </block> 
-  </swiper>
+  <block wx:for="{{productList}}" wx:key="index">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" indicator-active-color="{{indicatorActiveColor}}" circular="{{circular}}">
+      <block wx:for="{{item.src}}" wx:key="index">
+        <swiper-item>
+          <text>说明文字</text>
+          <image src="{{item}}" mode="aspectFill"></image>
+        </swiper-item> 
+      </block>
+    </swiper>
+  </block>
 
-  <view class="product-list">
-    <block wx:for="{{productList}}" wx:key="index">
-      <view class="product-item">
-         <text>{{item}}</text>
-      </view> 
-    </block> 
-  </view>
 </view>

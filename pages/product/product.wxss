@@ -2,21 +2,27 @@
 .product {
   padding: 20rpx 0;
 }
-
+swiper {
+  height: 420rpx;
+  margin-bottom: 20rpx;
+}
+swiper-item text {
+  padding-left: 20rpx;
+  font-size: 26rpx;
+  color: #666;
+}
 swiper-item image {
   display: block;
-  width: 100%;
-  margin: 0 auto;
+  width: 95%;
+  height: 420rpx;
+  margin: 0 auto; 
 }
-.product-list {
-  padding: 30rpx 20rpx;
+
+/* 改写微信默认样式  */
+/* .wx-swiper-dots {
+   width: 100%; 
 }
-.product-list image {
-  width: 100%;
-}
-.product-item {
-  width: 100%;
-  height: 300rpx;
-  background-color: #EFEFEF;
-  margin-top: 30rpx;
-}
+.wx-swiper-dots-horizontal {
+  text-align: right !important;
+  padding-right: 20rpx;
+} */
