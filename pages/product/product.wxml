@@ -1,14 +1,18 @@
 <view class="product">
- 
+  <view class="title">产品</view>
+  <view class="line"></view>
+  
   <block wx:for="{{productList}}" wx:key="index">
+    <view class="product-name">{{item.tag}}</view>
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" indicator-active-color="{{indicatorActiveColor}}" circular="{{circular}}">
-      <block wx:for="{{item.src}}" wx:key="index">
+      <block wx:for="{{item.detail}}" wx:key="index">
         <swiper-item>
-          <text>说明文字</text>
-          <image src="{{item}}" mode="aspectFill"></image>
+          <view class="img-text">{{item.text}}</view>
+          <image src="{{item.src}}" mode="aspectFill"></image>
         </swiper-item> 
       </block>
     </swiper>
+    <view class="line"></view>
   </block>
 
 </view>

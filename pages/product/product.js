@@ -14,29 +14,29 @@ Page({
             src: "res/img/BrainScope/1.jpg"
           },
           {
-            text: "图片1",
+            text: "图片2",
             src: "res/img/BrainScope/1.jpg"
           },
           {
-            text: "图片1",
+            text: "图片3",
             src: "res/img/BrainScope/1.jpg"
           }
         ]
       },
       {
-        tag: "tDcs",
+        tag: "tDCS",
         detail: [
           {
             text: "图片1",
-            src: "res/img/tDcs/1.jpg"
+            src: "res/img/tDCS/1.jpg"
           },
           {
-            text: "图片1",
-            src: "res/img/tDcs/1.jpg"
+            text: "图片2",
+            src: "res/img/tDCS/1.jpg"
           },
           {
-            text: "图片1",
-            src: "res/img/tDcs/1.jpg"
+            text: "图片3",
+            src: "res/img/tDCS/1.jpg"
           }
         ]
       },
@@ -48,11 +48,11 @@ Page({
             src: "res/img/PsyCT/1.jpg"
           },
           {
-            text: "图片1",
+            text: "图片2",
             src: "res/img/PsyCT/1.jpg"
           },
           {
-            text: "图片1",
+            text: "图片3",
             src: "res/img/PsyCT/1.jpg"
           }
         ]
@@ -65,17 +65,17 @@ Page({
             src: "res/img/Aim.robot/1.jpg"
           },
           {
-            text: "图片1",
+            text: "图片2",
             src: "res/img/Aim.robot/1.jpg"
           },
           {
-            text: "图片1",
+            text: "图片3",
             src: "res/img/Aim.robot/1.jpg"
           }
         ]
       }
     ],
-    indicatorDots: true,
+    indicatorDots: false,
     autoplay: false,
     indicatorActiveColor: "#006537",
     circular: true
