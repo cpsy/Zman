@@ -1,5 +1,8 @@
 {
   "pages":[
+    "pages/product/product",
+    "pages/news/news",
+    "pages/support/support",
     "pages/questionnaire/questionnaire",
     "pages/index/index",
     "pages/logs/logs"
@@ -7,8 +10,31 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "资联助手",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list": [
+      {
+        "pagePath": "pages/product/product",
+        "text": "产品",
+        "iconPath": "images/product.png",
+        "selectedIconPath": "images/product_selected.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "images/news.png",
+        "selectedIconPath": "images/news_selected.png"
+      },
+      {
+        "pagePath": "pages/support/support",
+        "text": "支持",
+        "iconPath": "images/support.png",
+        "selectedIconPath": "images/support_selected.png"
+      }
+    ],
+    "selectedColor": "#006537"
   },
   "networkTimeout": {
     "request": 10000,
