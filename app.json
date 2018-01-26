@@ -1,19 +1,19 @@
 {
-  "pages":[
+  "pages": [
     "pages/product/product",
     "pages/news/news",
     "pages/support/support",
-    "pages/questionnaire/questionnaire",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/about/about",
+    "pages/webview/webview",
+    "pages/questionnaire/questionnaire"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "资联助手",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "资联虹康",
+    "navigationBarTextStyle": "black"
   },
-  "tabBar":{
+  "tabBar": {
     "list": [
       {
         "pagePath": "pages/product/product",
@@ -32,6 +32,12 @@
         "text": "支持",
         "iconPath": "images/support.png",
         "selectedIconPath": "images/support_selected.png"
+      },
+      {
+        "pagePath": "pages/questionnaire/questionnaire",
+        "text": "关于",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about_selected.png"
       }
     ],
     "selectedColor": "#006537"

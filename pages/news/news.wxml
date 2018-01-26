@@ -1,2 +1,8 @@
 <!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+<view class="news">
+  <view class="title">新闻</view>
+  <view class="line"></view>
+  
+  
+
+</view>

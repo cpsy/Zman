@@ -1,2 +1,8 @@
 <!--pages/support/support.wxml-->
-<text>pages/support/support.wxml</text>
+<view class="support">
+  <view class="title">支持</view>
+  <view class="line"></view>
+  
+  
+
+</view>

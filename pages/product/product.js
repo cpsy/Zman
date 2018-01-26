@@ -11,15 +11,18 @@ Page({
         detail: [
           {
             text: "图片1",
-            src: "res/img/BrainScope/1.jpg"
+            src: "res/img/BrainScope/1.jpg",
+            link: "https://h5.znion.com/index.html"
           },
           {
             text: "图片2",
-            src: "res/img/BrainScope/1.jpg"
+            src: "res/img/BrainScope/2.jpg",
+            link: "https://h5.znion.com/index.html"
           },
           {
             text: "图片3",
-            src: "res/img/BrainScope/1.jpg"
+            src: "res/img/BrainScope/3.jpg",
+            link: "https://h5.znion.com/index.html"
           }
         ]
       },
@@ -28,15 +31,18 @@ Page({
         detail: [
           {
             text: "图片1",
-            src: "res/img/tDCS/1.jpg"
+            src: "res/img/tDcs/1.jpg",
+            link: "https://h5.znion.com/index.html"
           },
           {
             text: "图片2",
-            src: "res/img/tDCS/1.jpg"
+            src: "res/img/tDcs/2.jpg",
+            link: "https://h5.znion.com/index.html"
           },
           {
             text: "图片3",
-            src: "res/img/tDCS/1.jpg"
+            src: "res/img/tDcs/3.jpg",
+            link: "https://h5.znion.com/index.html"
           }
         ]
       },
@@ -45,15 +51,18 @@ Page({
         detail: [
           {
             text: "图片1",
-            src: "res/img/PsyCT/1.jpg"
+            src: "res/img/PsyCT/1.jpg",
+            link: "https://h5.znion.com/index.html"
           },
           {
             text: "图片2",
-            src: "res/img/PsyCT/1.jpg"
+            src: "res/img/PsyCT/2.jpg",
+            link: "https://h5.znion.com/index.html"
           },
           {
             text: "图片3",
-            src: "res/img/PsyCT/1.jpg"
+            src: "res/img/PsyCT/3.jpg",
+            link: "https://h5.znion.com/index.html"
           }
         ]
       },
@@ -62,78 +71,31 @@ Page({
         detail: [
           {
             text: "图片1",
-            src: "res/img/Aim.robot/1.jpg"
+            src: "res/img/Aim.robot/1.jpg",
+            link: "https://h5.znion.com/index.html"
           },
           {
             text: "图片2",
-            src: "res/img/Aim.robot/1.jpg"
+            src: "res/img/Aim.robot/1.jpg",
+            link: "https://h5.znion.com/index.html"
           },
           {
             text: "图片3",
-            src: "res/img/Aim.robot/1.jpg"
+            src: "res/img/Aim.robot/1.jpg",
+            link: "https://h5.znion.com/index.html"
           }
         ]
       }
     ],
-    indicatorDots: false,
-    autoplay: false,
-    indicatorActiveColor: "#006537",
-    circular: true
+    circular: true,
+    nextMargin: "40rpx"
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-    console.log("onload");
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-    console.log("onReady");
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-    console.log("onShow");
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-    console.log("onHide");
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-    console.log("onUnload");
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  // 点击图片
+  toLink: function(event) {
+    var link = event.currentTarget.dataset.link;
+    wx.navigateTo({
+      url: "../../pages/webview/webview?link=" + link
+    })
   }
 })

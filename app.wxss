@@ -8,3 +8,34 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+view.title {
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+  font-size: 56rpx;
+  font-weight: bold;
+  color: #000;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+view.product-name {
+  padding-left: 20rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #000;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+view.img-text {
+  padding-left: 20rpx;
+  font-size: 26rpx;
+  color: #666;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+view.line {
+  width: 95%;
+  margin: 20rpx auto 30rpx auto;
+  height: 0;
+  border-bottom: 1px solid #DDD;
+}
