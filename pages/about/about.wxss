@@ -1,1 +1,17 @@
 /* pages/about/about.wxss */
+.item {
+  padding: 0 20rpx 30rpx 20rpx;
+} 
+.item-title {
+  font-size: 36rpx;
+  font-weight: bold; 
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.item-detail {
+  font-size: 32rpx;
+  text-indent: 40rpx;
+  line-height: 1.6;
+  letter-spacing: 1rpx;
+  color: #555;
+}

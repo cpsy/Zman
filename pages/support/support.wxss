@@ -1,2 +1,56 @@
 /* pages/support/support.wxss */
-
+.support {
+  padding-bottom: 40rpx;
+}
+.item-title {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #000;
+  height: 60rpx;
+  line-height: 60rpx; 
+}
+.item {
+  margin-bottom: 60rpx;
+  overflow: auto;
+  clear: both;
+}
+.item-detail {
+  padding: 0 20rpx;
+}
+.video-item,
+.doc-item,
+.questionnaire-item {
+  width: 48%;
+  height: 160rpx;
+  float: left;
+  text-align: left;
+  border-radius: 10rpx;
+  color: #fff;
+  margin-top: 30rpx;
+  cursor: pointer;
+  font-size: 26rpx;
+  line-height: 80rpx;
+  text-indent: 20rpx;
+}
+.video-item {
+   background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+.doc-item {
+   background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+.questionnaire-item {
+   background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+}
+.video-item:nth-child(2n),
+.doc-item:nth-child(2n),
+.questionnaire-item:nth-child(2n) {
+  float: right;
+}
+text.more {
+  color: #666;
+  font-size: 26rpx;
+  font-weight: normal;
+  float: right;
+}

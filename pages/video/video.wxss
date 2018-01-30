@@ -1,0 +1,11 @@
+/* pages/video/video.wxss */
+view {
+  padding: 20rpx;
+}
+video {
+  width: 100%;
+}
+text {
+  height: 80rpx;
+  line-height: 80rpx;
+}

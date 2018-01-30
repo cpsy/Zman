@@ -2,7 +2,34 @@
 <view class="support">
   <view class="title">支持</view>
   <view class="line"></view>
-  
-  
+
+  <view class="video item">
+    <view class="item-title">视频教程<text class="more">更多></text></view>
+    <view class="item-detail">
+      <block wx:for="{{videoList}}" wx:key="index">
+        <view class="video-item" bindtap="toVideo" data-src="{{item.src}}" data-txt="{{item.txt}}">{{item.txt}}</view>
+      </block>
+    </view>
+  </view>
+
+  <view class="line"></view>
+
+  <view class="doc item">
+    <view class="item-title">参考文档<text class="more">更多></text></view>
+    <view class="item-detail">
+      <view class="doc-item">文档1</view>
+      <view class="doc-item">文档2</view>
+    </view>
+  </view>
+
+  <view class="line"></view>
+
+  <view class="questionnaire item">
+    <view class="item-title">问卷回访<text class="more">更多></text></view>
+    <view class="item-detail">
+      <view class="questionnaire-item">问卷1</view>
+      <view class="questionnaire-item">问卷2</view>
+    </view>
+  </view>
 
 </view>

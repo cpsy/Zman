@@ -3,6 +3,28 @@
   <view class="title">关于</view>
   <view class="line"></view>
   
-  
+  <view class="introduce item">
+    <view class="item-title">公司简介</view>
+    <view class="item-detail">
+      武汉资联虹康科技股份有限公司是坐落在武汉高科医疗器械园的一家高科技企业。依托华中科技大学的人才与技术优势，致力于脑科学前沿技术的产品开发、技术转化与产业发展。与中国中科院、美国加州大学、哈佛医学院等机构开展技术合作，研制出了心理CT、生物反馈、微电流刺激仪等一系列精神心理测查与训练、神经检测与调控产品。
+    </view>
+    <view class="item-detail">
+      公司将始终以科技创新，提升人们的健康品质为己任。利用精神心理和神经康复等临床方面的优势来帮助患者改善健康状况，同时推动医疗器械家庭化的进程，让更多的家庭享受到现代医疗科技的优质服务。
+    </view>
+  </view>
+
+  <view class="join item">
+    <view class="item-title">加入我们</view>
+    <view class="item-detail">欢迎志同道合的你加入我们，期待与你一起成长进步。</view>
+    <view class="item-detail">请发送您的简历到：hr@znion.com，我们会在第一时间联系您！</view>
+  </view>
+
+  <view class="contact item">
+    <view class="item-title">联系我们</view> 
+    <view class="item-detail">
+      地址：<text bindtap="navigation">武汉东湖高新开发区高新大道818号高科医疗器械园B7栋</text>
+    </view>
+    <view class="item-detail">电话：<text bindtap="tel" data-tel="027-59760320">027-59760320</text></view>
+  </view>
 
 </view>
