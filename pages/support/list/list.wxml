@@ -1,0 +1,6 @@
+<!--pages/support/list/list.wxml-->
+<view class="list">
+  <view class="title">{{title}}</view>
+  <view class="line"></view>
+
+</view>

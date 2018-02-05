@@ -39,5 +39,5 @@ view.line {
   width: 95%;
   margin: 20rpx auto 30rpx auto;
   height: 0;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #DFDFDF;
 }

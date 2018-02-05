@@ -3,12 +3,12 @@
   <view class="line"></view>
   
   <block wx:for="{{productList}}" wx:key="index">
-    <view class="product-name">{{item.tag}}</view>
-    <swiper circular="{{circular}}" next-margin="{{nextMargin}}">
-      <block wx:for="{{item.detail}}" wx:key="index">
+    <view class="product-name">{{item.nameEn}}</view>
+    <swiper circular="{{circular}}" next-margin="{{nextMargin}}" previous-margin="{{previousMargin}}">
+      <block wx:for="{{item.imgList}}" wx:key="index">
         <swiper-item>
-          <view class="img-text">{{item.text}}</view>
-          <image src="{{item.src}}" mode="aspectFill" data-link="{{item.link}}" bindtap="toLink"></image>
+          <view class="img-text">{{item.describe}}</view>
+          <image src="{{imgBaseUrl+item.src}}" mode="aspectFill" data-link="{{item.link}}" bindtap="toLink"></image>
         </swiper-item> 
       </block>
     </swiper>

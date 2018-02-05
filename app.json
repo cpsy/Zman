@@ -6,6 +6,7 @@
     "pages/webview/webview",
     "pages/questionnaire/questionnaire",
     "pages/support/support",
+    "pages/support/list/list",
     "pages/video/video"
   ],
   "window": {
