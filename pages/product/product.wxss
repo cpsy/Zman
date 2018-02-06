@@ -3,7 +3,8 @@ swiper {
   height: 416rpx;
   margin-bottom: 60rpx;
 }
-swiper-item image {
+swiper-item image,
+swiper-item video {
   display: block;
   width: 95%;
   height: 374rpx;

@@ -8,7 +8,8 @@
       <block wx:for="{{item.imgList}}" wx:key="index">
         <swiper-item>
           <view class="img-text">{{item.describe}}</view>
-          <image src="{{imgBaseUrl+item.src}}" mode="aspectFill" data-link="{{item.link}}" bindtap="toLink"></image>
+          <image wx:if="{{item.status === 1}}" src="{{imgBaseUrl+item.src}}" mode="aspectFill" data-link="{{item.link}}" bindtap="toLink"></image>
+          <video wx:else src="{{imgBaseUrl+item.src}}"></video>
         </swiper-item> 
       </block>
     </swiper>

@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/product/product",
-    "pages/news/news",
     "pages/about/about",
     "pages/webview/webview",
     "pages/questionnaire/questionnaire",
@@ -22,12 +21,6 @@
         "text": "产品",
         "iconPath": "images/product.png",
         "selectedIconPath": "images/product_selected.png"
-      },
-      {
-        "pagePath": "pages/news/news",
-        "text": "资讯",
-        "iconPath": "images/news.png",
-        "selectedIconPath": "images/news_selected.png"
       },
       {
         "pagePath": "pages/support/support",

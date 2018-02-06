@@ -24,6 +24,7 @@ Page({
 
   toLink: function(event) {
     var link = event.currentTarget.dataset.link;
+    console.log(link);
     wx.navigateTo({
       url: "../../pages/webview/webview?link=" + link
     })
