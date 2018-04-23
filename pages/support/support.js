@@ -17,7 +17,13 @@ Page({
     ],
     objectFit: "fill",
     autoplay: false,
-    controls: false
+    controls: false,
+    questionnaireList: [
+      {
+        src: "https://h5.znion.com/pages/questionnaire/1/html/index.html",
+        txt: "tDCS问卷"
+      }
+    ]
   },
 
   toVideo: function(event) {
@@ -25,6 +31,14 @@ Page({
     var videoTxt = event.currentTarget.dataset.txt;
     wx.navigateTo({
       url: "../../pages/video/video?src=" + videoSrc + "&txt=" + videoTxt
+    })
+  },
+
+  toQuestionnaire: function(event) {
+    var questionnaireSrc = event.currentTarget.dataset.src;
+    var questionnaireTxt = event.currentTarget.dataset.txt;
+    wx.navigateTo({
+      url: "../../pages/webview/webview?link=" + questionnaireSrc + "&txt=" + questionnaireTxt
     })
   },
 
